@@ -1,0 +1,134 @@
+/* *{margin: 0px;
+    padding: 0px;
+} */
+body{ 
+    background: url(./shonen-jump-anime-manga.jpeg);
+    background-attachment: fixed;
+    background-color: rgb(238, 255, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 120px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 25px solid blue ;
+    opacity: 0.8;
+    
+    
+    
+}
+.poopoo{
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+
+
+}
+#count{
+    border-radius: 12px;
+    background-color: rgb(48, 233, 131);
+    text-align: center;
+}
+.increment-bt{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 12px;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.increment-bt:hover{
+opacity: 1;
+cursor:pointer;
+transform: translateY(-5px);
+
+}
+.increment-bt:active{
+    background-color: aquamarine;
+    cursor:progress;
+}
+#increment-bt{
+    cursor:progress;}
+    #buttonbox{
+        display: flex;
+    }
+#navbar{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    opacity: 0.8;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+ 
+}
+.navi{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    opacity: 0.9;
+    border-radius: 12px;
+    margin-right: 115px;
+    text-decoration: none;
+    padding: 8px;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#text1{
+    color: aliceblue;
+}
+#buttonbox{
+    display: flex;
+    justify-content: space-around;
+}
+.sticky{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+#blackjack{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#jackbox{
+    background-image: url(./istockphoto-672546436-612x612.jpg);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 120px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 25px solid blue ;
+    opacity: 0.98;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.increment-bt2{
+    background-color: goldenrod;
+    width:8rem;
+
+}
+#bjbt{
+    display: flex;
+    flex-flow: column wrap;
+}
