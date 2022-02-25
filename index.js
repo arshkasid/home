@@ -57,7 +57,9 @@ let havebbc = false
 let messageel = document.getElementById("messageel")
 let cardsel = document.querySelector("#cardsel")
 let sumel = document.querySelector("#sumel")
-function startgame() {
+let cardar = [firstcard,secondcard]
+function startgame(){rendergame()}
+function rendergame() {
   if(sum<21){
     message = "want to draw another?"
   }
@@ -74,5 +76,10 @@ console.log(message)
 messageel.textContent= message
 sumel.textContent = "sum: " + sum
 cardsel.textContent= "cards: " + firstcard +  " " + secondcard
+}
+let newcard = 1
+function newcardf() {
+  sum+= newcard
+  sumel.textContent = "sum: " + sum
 
 }
